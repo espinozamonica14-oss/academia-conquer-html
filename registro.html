@@ -16,18 +16,65 @@
 </head>
 
 <body>
-
-   <header>
+<header>
     <figure>
         <img width="150px" src="img/logotipo-conquer-blocks.png" alt="Logotipo de conquer blocks">
     </figure>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quienes-somos.html">Quienes somos</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li>Registro</li>
+            <li><a href="login.html">Iniciar sesion</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
 
+        </ul>
+    </nav>
+  <hr>
    </header>
    <main>
-
+    <h1>Registrate</h1>
+    <p>Para poder acceder a nuestra academica necesitamos que te registres</p>
+    <form action="Post" enctype="multipart/form-data">
+        <p>
+            <label for="name">Nombre Completo</label>
+            <input type="text" name="name" id="name">
+        </p>
+        <p>
+            <label for="birthday">Fecha de nacimiento:</label>
+            <input type="date" name="birthday" id="birthday">
+        </p>
+        <p>
+            <label for="ema">Email</label>
+            <input type="email" name="ema" id="ema" required>
+        </p>
+        <p>
+            <label for="address">Dirección</label>
+            <input type="text" name="address" id="address">
+        </p>
+        <p>
+            <label for="web">Página web</label>
+            <input type="url" name="web" id="web">
+        </p>
+        <p>
+            <label for="photo">Foto</label>
+            <input type="file" name="photo" id="photo">
+        </p>
+        <p>
+            <label for="bio">Biografía</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="8"></textarea>
+        </p>
+        <p>
+            <button>Enviar</button>
+            <input type="reset" value="Borrar Formulario">
+        </p>
+    </form>
    </main>
    <footer>
-
+    <hr>
+    <p>&copy; 2026 derechos reservados-<a href="aviso-legal.html">Aviso Legal</a></p>
    </footer>
     
 
